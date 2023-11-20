@@ -22,7 +22,7 @@ const NavBarComponent = () => {
       <Container>
         <Navbar.Brand>
           <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
-            Tienda Daniel
+            Tienda CUBO
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
