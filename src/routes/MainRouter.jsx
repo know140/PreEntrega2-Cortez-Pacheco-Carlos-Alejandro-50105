@@ -14,7 +14,7 @@ const MainRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/category/:categoryId" element={<Category />} />
         <Route path="/item/:id" element={<Item />} />
-        <Route path="/contacto" component={Contacto} /> {/* Nueva ruta para la página de contacto */}
+        <Route path="/contacto" element={<Contacto/>} /> {/* Nueva ruta para la página de contacto */}
       </Routes>
     </Router>
   );

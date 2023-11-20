@@ -42,6 +42,11 @@ const NavBarComponent = () => {
                 );
               })}
             </NavDropdown>
+            <Nav.Link>
+  <Link to="/contacto" style={{ textDecoration: "none", color: "black" }}>
+    Contacto
+  </Link>
+</Nav.Link>
           </Nav>
           <CartWidgetComponent />
         </Navbar.Collapse>

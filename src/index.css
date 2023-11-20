@@ -1,3 +1,47 @@
 body {
     background-color: rgb(128, 128, 128);
 }
+
+/* Contacto.css */
+.contacto-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.contact-form-container {
+  width: 200px;
+  padding: 0px;
+  text-align: center;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+label {
+  
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: calc(100% - 0px); /* Ajusta el ancho según tus necesidades */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
