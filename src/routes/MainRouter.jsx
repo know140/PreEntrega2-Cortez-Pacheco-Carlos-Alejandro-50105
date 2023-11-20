@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import NavBarComponent from "../components/NavBarComponent/NavBarComponent";
 import Category from "../pages/Category";
 import Item from "../pages/Item";
+import Contacto from "../pages/Contacto";
 
 const MainRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const MainRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/category/:categoryId" element={<Category />} />
         <Route path="/item/:id" element={<Item />} />
+        <Route path="/contacto" component={Contacto} /> {/* Nueva ruta para la página de contacto */}
       </Routes>
     </Router>
   );

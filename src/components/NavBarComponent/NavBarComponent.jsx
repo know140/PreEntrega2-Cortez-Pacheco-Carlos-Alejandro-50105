@@ -22,13 +22,13 @@ const NavBarComponent = () => {
       <Container>
         <Navbar.Brand>
           <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
-           CUBO tienda
+            Tienda Daniel
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavDropdown title="Categorías Api" id="basic-nav-dropdown">
+            <NavDropdown title="Categorías" id="basic-nav-dropdown">
               {categories.map((category, index) => {
                 return (
                   <NavDropdown.Item key={index}>
@@ -49,5 +49,8 @@ const NavBarComponent = () => {
     </Navbar>
   );
 };
+
+
+
 
 export default NavBarComponent;
